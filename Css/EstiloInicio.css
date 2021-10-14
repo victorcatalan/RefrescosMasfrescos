@@ -1,0 +1,80 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font: 1.2rem;
+    line-height: 1.4em;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3rem; /* espaciado entre las lineas de texto*/
+}
+
+p{
+    margin-bottom: 1.6em;
+}
+
+.container{
+    width: 85%;
+    max-width: 850px; /*maximo ancho que tendrán los contenedores*/
+    margin: 0 auto;
+}
+
+.header{
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between; /*separa el logo y la lista hacia los lados*/
+    align-items: center;    
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    padding: 0.5rem 1rem;
+    transition: all 0.7s linear;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover{ /*modifica o agrega un resaltado dinamico a el texto al pasar sobre el con el mouse*/
+    background: #4a4a4a;
+    transition: 1s;
+}
+
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer{
+    background: #919191;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+main{
+    padding-top: 7rem; /*Resalta la barra de navegación para que no cubra el texto*/
+}

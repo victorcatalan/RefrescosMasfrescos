@@ -1,0 +1,35 @@
+h1{
+    font-family:sans-serif;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #008080;
+}
+
+menu{
+    list-style: none;
+    padding: 0;
+    background: #F0E68C;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+nav li{
+    display: inline-block;
+    text-align: center; 
+}
+
+nav li a:hover{
+    background: chocolate;
+
+
+}
